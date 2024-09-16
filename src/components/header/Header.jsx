@@ -1,22 +1,23 @@
 import Image from 'next/image'
 import Link from "next/link";  
-import logo from "../../../public/logo.png";  
+// import logo from "../../../public/logo.png";  
 import Socials from "../../components/socials/Socials";  
 
 
 const Header = () => {
   return (
-		<header className="absolute  z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
+		<header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[6.25rem] h-[6rem]">
 			<div className="container mx-auto">
-				<div className="flex flex-col lg:flex-row justify-between items-center gap-y-2 py-2">
+				<div className="flex flex-col lg:flex-row justify-between items-center gap-y-2">
 					<Link href='/'>
-						<Image
+						{/* <Image
 							src={logo}
 							width={125}
 							height={10}
 							alt="logo"
 							priority={true}
-						/>
+						/> */}
+						<h2 className='text-xl xl:text-2xl'><span className='font-bold'>D</span>abs <span className='text-accent'><span className='font-bold'>M</span>anuel</span></h2>
 					</Link>
           <Socials />
 				</div>

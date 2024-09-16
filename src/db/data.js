@@ -20,6 +20,7 @@ import {
 
 export const aboutData = [
   {
+    id: 1,
     title: 'skills',
     info: [
       {
@@ -94,47 +95,26 @@ export const testimonialData = [
 ];
 
 //workSlides Data
-export const workSlides = {
-  slides: [
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb1.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb1.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
-        },
-      ],
-    },
-  ],
-};  
+export const workSlides = [
+  {
+    id: 1,
+    title: 'title',
+    path: '/thumb1.jpg',
+  },
+  {
+    id: 2,
+    title: 'title',
+    path: '/thumb2.jpg',
+  },
+  {
+    id: 3,
+    title: 'title',
+    path: '/thumb3.jpg',
+  },
+  {
+    id: 4,
+    title: 'title',
+    path: '/thumb4.jpg',
+  },
+]
+  
