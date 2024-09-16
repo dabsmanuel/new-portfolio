@@ -24,6 +24,7 @@ export const aboutData = [
     title: 'skills',
     info: [
       {
+        id: 1,
         title: 'Web Development',
         icons: [
           <FaHtml5 />,
