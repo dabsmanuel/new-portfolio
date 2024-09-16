@@ -68,6 +68,7 @@ export const serviceData = [
 // testimonial data
 export const testimonialData = [
   {
+    id: 1,
     image: '/t-avt-1.png',
     name: 'Anne Smith',
     position: 'Customer',
@@ -75,6 +76,7 @@ export const testimonialData = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
+    id: 2,
     image: '/t-avt-2.png',
     name: 'Jane Doe',
     position: 'Customer',
@@ -82,6 +84,7 @@ export const testimonialData = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
+    id: 3,
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
     position: 'Customer',
