@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
-import Avatars from "../../components/avatar/Avatar";
 import Circles from "../../components/circles/Circles";
 import { aboutData } from "../../db/data";
 import"./button.css";
@@ -16,15 +15,6 @@ const About = () => {
   return (
 		<div className="h-full bg-primary/30 text-center py-32 xl:text-left">
 			<Circles />
-			{/* avatar */}
-			<motion.div
-				className="hidden lg:flex absolute bottom-0 -left-[135px]"
-				variants={fadeIn("right", 0.2)}
-				initial="hidden"
-				animate="show"
-				exit="hidden">
-				<Avatars />
-			</motion.div>
 
 			<div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-12">
 				<div className="flex-1 flex flex-col justify-center xl:mt-0 mt-4">
