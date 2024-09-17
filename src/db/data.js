@@ -107,23 +107,41 @@ export const serviceData = [
 export const workSlides = [
   {
     id: 1,
-    title: 'title',
-    path: '/thumb1.jpg',
+    title: 'Portfolio',
+    path: '/portfolio.png',
+    link: 'https://dabsmanuel.netlify.app'
   },
   {
     id: 2,
-    title: 'title',
-    path: '/thumb2.jpg',
+    title: 'oore',
+    path: '/oore.png',
+    link: 'https://ooreafrica.org'
   },
   {
     id: 3,
-    title: 'title',
-    path: '/thumb3.jpg',
+    title: 'kobri',
+    path: '/kobri.png',
+    link: 'https://jari-iota.vercel.app'
   },
   {
     id: 4,
-    title: 'title',
-    path: '/thumb4.jpg',
+    title: '28 reasons why',
+    path: '/sharon.png',
+    link: 'https://for-sharon.netlify.app'
+  },
+
+  {
+    id: 5,
+    title: 'Eliz Regina',
+    path: '/eliz-regina.png',
+    link: 'https://elis-regina.netlify.app'
+  },
+
+  {
+    id: 6,
+    title: 'zuri',
+    path: '/zuri.png',
+    link: 'https://zuri-frontend.vercel.app'
   },
 ]
   

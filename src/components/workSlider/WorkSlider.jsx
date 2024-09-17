@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -34,7 +35,7 @@ const WorkSlider = () => {
 						<SwiperSlide key={index}>
 							<div className='rounded-lg px-4 xl:pt-36 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer xl:h-[20rem] h-max' key={index}>
 								<div className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
-									<div>
+									<Link href={slide.link} target='_blank'>
 										<Image
 											src={slide.path} 
 											alt=""
@@ -42,7 +43,7 @@ const WorkSlider = () => {
 											height={300} 
 										/>
 										<div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-500'></div>
-									</div>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>
