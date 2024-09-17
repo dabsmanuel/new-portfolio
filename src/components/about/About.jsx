@@ -18,7 +18,7 @@ const About = () => {
 			<Circles />
 			{/* avatar */}
 			<motion.div
-				className="hidden lg:flex absolute bottom-0 -left-[370px]"
+				className="hidden lg:flex absolute bottom-0 -left-[135px]"
 				variants={fadeIn("right", 0.2)}
 				initial="hidden"
 				animate="show"
