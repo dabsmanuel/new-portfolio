@@ -21,23 +21,31 @@ import {
 export const aboutData = [
   {
     id: 1,
-    title: 'skills',
-    info: [
-      {
-        id: 1,
-        title: 'Web Development',
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-        ],
-      },
-    ],
+    icons: <FaHtml5 />
+  },
+  {
+    id: 2,
+    icons: <FaCss3 />,
+  },
+
+  {
+    id: 3,
+    icons: <FaJs />,
+  },
+  {
+    id: 4,
+    icons: <FaReact />,
+  },
+  {
+    id: 5,
+    icons: <SiNextdotjs />,
+  },
+  {
+    id: 6,
+    icons: <SiFramer />,
   }
-];
+]
+  
 
 //services Data
 export const serviceData = [
