@@ -1,5 +1,5 @@
 
-import { Sora } from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 import Nav from '../components/nav/Nav'
 import Header from '../components/header/Header'
@@ -8,7 +8,7 @@ import AnimationWrapper from "@/components/transition/Transition";
 
 // framer motion
 
-const sora = Sora({ subsets: ["latin"] });
+const sora = Oswald({ subsets: ["latin"] });
 
 export const metadata = {
   title: "DABSMANUEL",

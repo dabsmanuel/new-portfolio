@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image';
 import ParticlesContainer from '@/components/particlesContainer/ParticlesContainer';
 import ProjectsBtn from '../components/projectsBtn/ProjectsBtn';
 import Avatar from '@/components/avatar/Avatar';

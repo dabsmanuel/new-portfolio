@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from "next/link";  
-// import logo from "../../../public/logo.png";  
+import logo from "../../../public/logo.png";  
 import Socials from "../../components/socials/Socials";  
 
 
@@ -10,14 +10,13 @@ const Header = () => {
 			<div className="container mx-auto">
 				<div className="flex flex-col lg:flex-row justify-between items-center gap-y-2">
 					<Link href='/'>
-						{/* <Image
+						<Image
 							src={logo}
 							width={125}
 							height={10}
 							alt="logo"
-							priority={true}
-						/> */}
-						<h2 className='text-xl xl:text-2xl'><span className='font-bold'>D</span>abs <span className='text-accent'><span className='font-bold'>M</span>anuel</span></h2>
+							// priority={true}
+						/>
 					</Link>
           <Socials />
 				</div>

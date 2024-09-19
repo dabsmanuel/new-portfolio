@@ -13,7 +13,7 @@ const page = () => {
 			<Circles />
 			<div className="container mx-auto">
 				<div className="flex items-center flex-col xl:flex-row gap-x-8 ">
-					<div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 items-center">
+					<div className="text-center xl:text-start flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 items-center">
 						<motion.h2
 							className="h2 xl:mt-8"
 							variants={fadeIn("up", 0.2)}
