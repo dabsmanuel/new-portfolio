@@ -67,7 +67,7 @@ const Page = () => {
             animate='show'
             exit='hidden'
           >
-            Let's <span className='text-accent'>connect.</span>
+            Let&apos;s <span className='text-accent'>connect.</span>
           </motion.h2>
           {showAlert && (
             <div className="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-3 rounded relative mb-6" role="alert">
