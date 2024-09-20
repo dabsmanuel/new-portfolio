@@ -16,7 +16,7 @@ const About = () => {
 		<div className="h-full bg-primary/30 text-center py-32 xl:text-left">
 			<Circles />
 
-			<div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-12">
+			<div className="container mx-auto h-full pt-16 xl:pt-0 flex flex-col items-center xl:flex-row gap-x-12">
 				<div className="flex-1 flex flex-col justify-center xl:mt-0 mt-4">
 					<motion.h2
 						variants={fadeIn("right", 0.2)}
